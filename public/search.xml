@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>《开发环境准备》</title>
+      <link href="/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/"/>
+      <url>/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="安装Go开发包"><a href="#安装Go开发包" class="headerlink" title="安装Go开发包"></a>安装Go开发包</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>[官网下载链接]<a href="https://golang.google.cn/dl/">https://golang.google.cn/dl/</a></p><p><a href="https://studygolang.com/dl">go语言中文网_国内下载 </a> <a href="https://studygolang.com/dl">https://studygolang.com/dl</a></p><p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d1920713f440bda1322b64eda99f96~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h2 id="安装目录一定选一个好记的"><a href="#安装目录一定选一个好记的" class="headerlink" title="安装目录一定选一个好记的"></a>安装目录一定选一个好记的</h2><p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7384cdb008ca4efcb330e0e521f33795~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h2 id="安装完成后，输入go-version查看go版本号。"><a href="#安装完成后，输入go-version查看go版本号。" class="headerlink" title="安装完成后，输入go version查看go版本号。"></a>安装完成后，输入<code>go version</code>查看go版本号。</h2><p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/856265a18c5f4a4c888ba80e81b5728d~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h2 id="配置GOPATH"><a href="#配置GOPATH" class="headerlink" title="配置GOPATH"></a>配置GOPATH</h2><p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/46fcf70287c94436b3fad7d64a433331~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/805d7ffd13d94c7cae2a0dd865556db8~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h2 id="详细步骤："><a href="#详细步骤：" class="headerlink" title="详细步骤："></a>详细步骤：</h2><ol><li><p>在自己的电脑上新建一个目录<code>D:\go</code>（存放我编写的Go语言代码）</p></li><li><p>在环境变量里，新建一项：<code>GOPATH:D:\go</code></p></li><li><p>在<code>D:\go</code>下新建三个文件夹，分别是：<code>bin</code>、<code>src</code>、<code>pkg</code></p></li><li><p>把<code>D:\go\bin</code>这个目录添加到<code>PATH</code>这个环境变量的后面</p><ol start="0"><li>Win7是英文的<code>;</code>分隔</li><li>Win10是单独一行</li></ol></li><li><p>你电脑上<code>GOPATH</code>应该是有默认值的，通常是<code>%USERPROFILE%/go</code>， 你把这一项删掉，自己按照上面的步骤新建一个就可以了。</p></li></ol><p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b6b8375a7c74783a71ad37f40b7c5b1~tplv-k3u1fbpfcp-watermark.image" alt="image.png"></p><h2 id="一些go-语言常用网站"><a href="#一些go-语言常用网站" class="headerlink" title="一些go 语言常用网站"></a>一些go 语言常用网站</h2><p><a href="https://studygolang.com/dl">go语言中文网</a></p><p><a href="https://www.golangtc.com/">golang中国</a></p><p><a href="https://studygolang.com/pkgdoc">Golang标准库文档</a></p><p><a href="https://learnku.com/go">golang 社区</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> GoLang </category>
+          
+          <category> go语言开发环境搭建 《开发环境准备》 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
