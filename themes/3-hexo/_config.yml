@@ -68,7 +68,7 @@ menu:
     url: /about  # 跳转链接
     type: 1 # 跳转类型 1：站内异步跳转 2：当前页面跳转 3：打开新的tab页
   friend: # '友链' 按钮
-    on: false # 是否展示
+    on: true # 是否展示
   menus: # 添加的其他菜单写在 menus 下，如下三个菜单：动态菜单1、动态菜单2、动态菜单3
     相册:
       on: false
@@ -113,7 +113,7 @@ searchAll: true
 copyright: false
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -141,7 +141,7 @@ article_list:
 
 # 文章列表背景图
 article_bg_img:
-  on: false # 是否开启
+  on: true # 是否开启
   src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
@@ -224,11 +224,11 @@ mermaid:
 
 # 友情链接
 friends:
-  xxxx: http://yelog.org/
+  掘金: https://juejin.cn/user/78820565597464/columns
 
 ##########评论设置#############
 comment:
-  on: true
+  on: false
   type: gitalk  # 评论系统：gitalk、disqus、gitment、utteranc、livere,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数 目前仅支持 gitalk 和 disqus
   ## 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
