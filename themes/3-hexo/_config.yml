@@ -97,7 +97,7 @@ miit:
   url: http://beian.miit.gov.cn/ # 默认链接为 http://beian.miit.gov.cn/
 
 
-reward: false
+reward: true
 # true 开启打赏功能
 
 searchAll: true
@@ -228,7 +228,7 @@ friends:
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gitment、utteranc、livere,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数 目前仅支持 gitalk 和 disqus
   ## 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
@@ -241,14 +241,14 @@ disqus:
 
 
 gitalk:
-  githubID: liumiao1128
-  repo: https://github.com/liumiao1128/blogs
-  ClientID: 6febdabf3f1ff010999f
-  ClientSecret: f8c5bf3bece4244c08ea5848ac730e4221ba9cba
-  adminUser: liumiao1128
-  distractionFreeMode: true
-  language: zh-CN
-  perPage: 10
+    githubID: liumiao1128
+    repo: liumm.github.io
+    ClientID: 7727bbbcbf31aadb0b06
+    ClientSecret: 93a3daf9473ba552bf5b438aedac26f06ab83d21
+    adminUser: liumiao1128
+    distractionFreeMode: true
+    language: zh-CN
+    perPage: 10
 # gitalk：利用github issue制作的第三方聊天插件
 # https://github.com/gitalk/gitalk
 # 参数介绍：
