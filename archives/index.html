@@ -6,24 +6,19 @@
   <meta name="keywords" content="">
   <meta name="description" content="流年りゅう">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="安装Go开发包下载[官网下载链接]https:&#x2F;&#x2F;golang.google.cn&#x2F;dl&#x2F; go语言中文网_国内下载  https:&#x2F;&#x2F;studygolang.com&#x2F;dl  安装目录一定选一个好记的 安装完成后，输入go version查看go版本号。 配置GOPATH  详细步骤： 在自己的电脑上新建一个目录D:\go（存放我编写的Go语言代码）  在环境变量里，新建一项：GOPATH:D:\">
+<meta name="description" content="标识符与关键字标识符在编程语言中标识符就是程序员定义的具有特殊意义的词，比如变量名、常量名、函数名等等。 Go语言中标识符由字母数字和_(下划线）组成，并且只能以字母和_开头。 举几个例子：abc, _, _123, a123。 关键字关键字是指编程语言中预先定义好的具有特殊含义的标识符。 关键字和保留字都不建议用作变量名。Go语言中有25个关键字： 12345break        defau">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《开发环境准备》">
-<meta property="og:url" content="http://blogs.lm520.cn/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/index.html">
+<meta property="og:title" content="变量和常量">
+<meta property="og:url" content="http://blogs.lm520.cn/2023/03/25/%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F/index.html">
 <meta property="og:site_name" content="流年りゅう">
-<meta property="og:description" content="安装Go开发包下载[官网下载链接]https:&#x2F;&#x2F;golang.google.cn&#x2F;dl&#x2F; go语言中文网_国内下载  https:&#x2F;&#x2F;studygolang.com&#x2F;dl  安装目录一定选一个好记的 安装完成后，输入go version查看go版本号。 配置GOPATH  详细步骤： 在自己的电脑上新建一个目录D:\go（存放我编写的Go语言代码）  在环境变量里，新建一项：GOPATH:D:\">
+<meta property="og:description" content="标识符与关键字标识符在编程语言中标识符就是程序员定义的具有特殊意义的词，比如变量名、常量名、函数名等等。 Go语言中标识符由字母数字和_(下划线）组成，并且只能以字母和_开头。 举几个例子：abc, _, _123, a123。 关键字关键字是指编程语言中预先定义好的具有特殊含义的标识符。 关键字和保留字都不建议用作变量名。Go语言中有25个关键字： 12345break        defau">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d1920713f440bda1322b64eda99f96~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7384cdb008ca4efcb330e0e521f33795~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/856265a18c5f4a4c888ba80e81b5728d~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/46fcf70287c94436b3fad7d64a433331~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/805d7ffd13d94c7cae2a0dd865556db8~tplv-k3u1fbpfcp-watermark.image">
-<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b6b8375a7c74783a71ad37f40b7c5b1~tplv-k3u1fbpfcp-watermark.image">
-<meta property="article:published_time" content="2023-03-25T07:06:02.000Z">
-<meta property="article:modified_time" content="2023-03-25T07:07:22.936Z">
+<meta property="article:published_time" content="2023-03-25T20:23:48.000Z">
+<meta property="article:modified_time" content="2023-03-25T12:34:05.400Z">
 <meta property="article:author" content="流年">
+<meta property="article:tag" content="golang">
+<meta property="article:tag" content="后端">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d1920713f440bda1322b64eda99f96~tplv-k3u1fbpfcp-watermark.image">
 
 
 <link rel="icon" href="/img/WechatIMG31.jpeg">
@@ -121,30 +116,38 @@
     <li>
         <div class="all active" data-rel="全部文章">全部文章
             
-                <small>(1)</small>
+                <small>(2)</small>
             
         </div>
     </li>
     
         
             
-        
-    
-        
-            
                 <li>
-                    <div data-rel="GoLang">
+                    <div data-rel="Go">
                         <i class="fold iconfont icon-right"></i>
                         
-                        GoLang
-                        <small>(1)</small>
+                        Go
+                        <small>(2)</small>
                         
                     </div>
                     
                         <ul class="sub hide">
                             
                                 <li>
-                                    <div data-rel="GoLang<--->go语言开发环境搭建 《开发环境准备》">
+                                    <div data-rel="Go<--->go语言基础之变量和常量">
+                                        
+                                        go语言基础之变量和常量
+                                        
+                                            <small>(1
+                                                )</small>
+                                        
+                                    </div>
+                                    
+                                </li>
+                            
+                                <li>
+                                    <div data-rel="Go<--->go语言开发环境搭建 《开发环境准备》">
                                         
                                         go语言开发环境搭建 《开发环境准备》
                                         
@@ -161,6 +164,14 @@
             
         
     
+        
+            
+        
+    
+        
+            
+        
+    
 </ul>
 <div class="left-bottom">
     <div class="menus">
@@ -171,11 +182,13 @@
     </div>
     <div>
         
+        <a 
+                                           class="friends">友链</a>
         
     </div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="1">
-
+<input type="hidden" id="yelog_site_posts_number" value="2">
+<input type="hidden" id="yelog_site_word_count" value="1.8k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -191,7 +204,7 @@
     <div class="friends-content">
         <ul>
             
-            <li><a target="_blank" href="http://yelog.org/">xxxx</a></li>
+            <li><a target="_blank" href="https://juejin.cn/user/78820565597464/columns">掘金</a></li>
             
         </ul>
     </div>
@@ -220,6 +233,14 @@
     <input id="tag-search" />
     <div class="tag-wrapper">
         
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>后端</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>golang</a>
+            </li>
+        
     </div>
 
 </div>
@@ -232,12 +253,21 @@
     <nav id="title-list-nav">
         
         
-        <a  class="全部文章 GoLang go语言开发环境搭建 《开发环境准备》 "
+        <a  class="全部文章 Go go语言基础之变量和常量 "
+           href="/2023/03/25/%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F/"
+           data-tag="golang,后端"
+           data-author="" >
+            <span class="post-title" title="变量和常量">变量和常量</span>
+            <span class="post-date" title="2023-03-25 20:23:48">2023/03/25</span>
+        </a>
+        
+        
+        <a  class="全部文章 Go go语言开发环境搭建 《开发环境准备》 "
            href="/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/"
-           data-tag=""
+           data-tag="golang,后端"
            data-author="" >
             <span class="post-title" title="《开发环境准备》">《开发环境准备》</span>
-            <span class="post-date" title="2023-03-25 07:06:02">2023/03/25</span>
+            <span class="post-date" title="2023-03-25 15:06:02">2023/03/25</span>
         </a>
         
         <div id="no-item-tips">
@@ -291,27 +321,6 @@
         </p>
         
         
-    <div id="comments"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-
-<script type="text/javascript">
-    $.getScript('/js/gitalk.js', function () {
-        var gitalk = new Gitalk({
-            clientID: '7727bbbcbf31aadb0b06',
-            clientSecret: '93a3daf9473ba552bf5b438aedac26f06ab83d21',
-            repo: 'liumm.github.io',
-            owner: 'liumiao1128',
-            admin: ['liumiao1128'],
-            id: decodeURI(location.pathname),
-            distractionFreeMode: 'true',
-            language: 'zh-CN',
-            perPage: parseInt('10',10)
-        })
-        gitalk.render('comments')
-    })
-</script>
-
-
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -471,6 +480,25 @@
     
 
     /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2019/07/22/5d3521411f3f169375.png");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
     
 
     
