@@ -6,19 +6,26 @@
   <meta name="keywords" content=" golang , 后端 ">
   <meta name="description" content="《开发环境准备》 | 流年りゅう">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="标识符与关键字标识符在编程语言中标识符就是程序员定义的具有特殊意义的词，比如变量名、常量名、函数名等等。 Go语言中标识符由字母数字和_(下划线）组成，并且只能以字母和_开头。 举几个例子：abc, _, _123, a123。 关键字关键字是指编程语言中预先定义好的具有特殊含义的标识符。 关键字和保留字都不建议用作变量名。Go语言中有25个关键字： 12345break        defau">
+<meta name="description" content="安装Go开发包下载[官网下载链接]https:&#x2F;&#x2F;golang.google.cn&#x2F;dl&#x2F; go语言中文网_国内下载  https:&#x2F;&#x2F;studygolang.com&#x2F;dl  安装目录一定选一个好记的 安装完成后，输入go version查看go版本号。 配置GOPATH  详细步骤： 在自己的电脑上新建一个目录D:\go（存放我编写的Go语言代码）  在环境变量里，新建一项：GOPATH:D:\">
 <meta property="og:type" content="article">
-<meta property="og:title" content="变量和常量">
-<meta property="og:url" content="http://blogs.lm520.cn/2023/03/25/%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F/index.html">
+<meta property="og:title" content="《开发环境准备》">
+<meta property="og:url" content="http://blogs.lm520.cn/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/index.html">
 <meta property="og:site_name" content="流年りゅう">
-<meta property="og:description" content="标识符与关键字标识符在编程语言中标识符就是程序员定义的具有特殊意义的词，比如变量名、常量名、函数名等等。 Go语言中标识符由字母数字和_(下划线）组成，并且只能以字母和_开头。 举几个例子：abc, _, _123, a123。 关键字关键字是指编程语言中预先定义好的具有特殊含义的标识符。 关键字和保留字都不建议用作变量名。Go语言中有25个关键字： 12345break        defau">
+<meta property="og:description" content="安装Go开发包下载[官网下载链接]https:&#x2F;&#x2F;golang.google.cn&#x2F;dl&#x2F; go语言中文网_国内下载  https:&#x2F;&#x2F;studygolang.com&#x2F;dl  安装目录一定选一个好记的 安装完成后，输入go version查看go版本号。 配置GOPATH  详细步骤： 在自己的电脑上新建一个目录D:\go（存放我编写的Go语言代码）  在环境变量里，新建一项：GOPATH:D:\">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-03-25T12:23:48.000Z">
-<meta property="article:modified_time" content="2023-03-25T12:32:55.717Z">
+<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d1920713f440bda1322b64eda99f96~tplv-k3u1fbpfcp-watermark.image">
+<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7384cdb008ca4efcb330e0e521f33795~tplv-k3u1fbpfcp-watermark.image">
+<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/856265a18c5f4a4c888ba80e81b5728d~tplv-k3u1fbpfcp-watermark.image">
+<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/46fcf70287c94436b3fad7d64a433331~tplv-k3u1fbpfcp-watermark.image">
+<meta property="og:image" content="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/805d7ffd13d94c7cae2a0dd865556db8~tplv-k3u1fbpfcp-watermark.image">
+<meta property="og:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b6b8375a7c74783a71ad37f40b7c5b1~tplv-k3u1fbpfcp-watermark.image">
+<meta property="article:published_time" content="2023-03-25T15:06:02.000Z">
+<meta property="article:modified_time" content="2023-03-26T01:12:42.932Z">
 <meta property="article:author" content="流年">
 <meta property="article:tag" content="golang">
 <meta property="article:tag" content="后端">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68d1920713f440bda1322b64eda99f96~tplv-k3u1fbpfcp-watermark.image">
 
 
 <link rel="icon" href="/img/WechatIMG31.jpeg">
@@ -253,21 +260,21 @@
     <nav id="title-list-nav">
         
         
+        <a  class="全部文章 Go go语言开发环境搭建 《开发环境准备》 "
+           href="/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/"
+           data-tag="golang,后端"
+           data-author="" >
+            <span class="post-title" title="《开发环境准备》">《开发环境准备》</span>
+            <span class="post-date" title="2023-03-25 15:06:02">2023/03/25</span>
+        </a>
+        
+        
         <a  class="全部文章 Go go语言基础之变量和常量 "
            href="/2023/03/25/%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F/"
            data-tag="golang,后端"
            data-author="" >
             <span class="post-title" title="变量和常量">变量和常量</span>
             <span class="post-date" title="2023-03-25 12:23:48">2023/03/25</span>
-        </a>
-        
-        
-        <a  class="全部文章 Go go语言开发环境搭建 《开发环境准备》 "
-           href="/2023/03/25/%E3%80%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87%E3%80%8B/"
-           data-tag="golang,后端"
-           data-author="" >
-            <span class="post-title" title="《开发环境准备》">《开发环境准备》</span>
-            <span class="post-date" title="2023-03-25 07:06:02">2023/03/25</span>
         </a>
         
         <div id="no-item-tips">
@@ -319,7 +326,7 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-03-25 12:32:51'>2023-03-25 07:06</time>
+            发布时间 : <time class="date" title='最后更新: 2023-03-26 01:12:42'>2023-03-25 15:06</time>
         
     </div>
     <div class="article-meta">
